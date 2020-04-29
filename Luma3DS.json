@@ -23,8 +23,8 @@
 		},
 		{
 			"type": "extractFile",
-			"file": "Luma3DS.zip",
-			"input": "Luma3DS/boot.firm",
+			"file": "/Luma3DS.zip",
+			"input": "boot.firm",
 			"output": "/boot.firm",
 			"message": "Extracting the Luma3DS FIRM..."
 		},
@@ -41,6 +41,16 @@
 			"file": "boot.firm",
 			"output": "/boot.firm",
 			"message": "Downloading the nightly Luma3DS FIRM..."
+		}
+		
+	],
+	"Luma3DS Plugin Loader (FIRM)": [
+		{
+			"type": "downloadRelease",
+			"repo": "jbmagination/Luma3DS_plg",
+			"file": "boot.firm",
+			"output": "/boot.firm",
+			"message": "Downloading the plugin loader Luma3DS FIRM..."
 		}
 	]
 }
